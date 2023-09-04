@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fecello</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./swiper.css">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="./img/logo.png" alt="">
+
+            <div class="menudiv">
+                <h3 class="menuItem">Women</h3>
+                <h3 class="menuItem">Men</h3>
+                <h3 class="menuItem">Kids</h3>
+                <h3 class="menuItem">Decor</h3>
+                <h3 class="menuItem">Gifts</h3>
+            </div>
+
+            <button class="login-btn">Login</button>
+        </nav>
+        <div class="slider">
+            <div class="sliderWrapper">
+                    <div class="sliderDetails">
+                        <h1 class="sliderTitle">Find The Best Fashion Style for you</h1>
+                        <p class="sliderDesc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed quas rem blanditiis ipsam vero earum aliquam ad labore vitae repudiandae pariatur, nemo debitis mollitia a similique, iure, quis fugit quod!</p>
+                    <button class="sliderButton">By Now!</button>
+                    </div>
+                    <div class="imgBg">
+                    <img src="./img/air.png" alt="" class="sliderImg">
+                    </div>
+            </div>
+        </div>
+        
+        
+    </header>
+    <main>
+    <section class="bestPrdSection" id="bestPrdSection">
+    
+        <div class="content">
+          <h2>Welcome to Online Book Store</h2>
+          <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quam magnam obcaecati error consequatur repellat fugiat, deleniti nisi eum voluptates.</p>
+          <ul class="counter">
+            <li>
+              <h3><i class="fa-solid fa-book"></i>68+k</h3>
+              <span>book collections</span>
+            </li>
+            <li>
+              <h3><i class="fa-solid fa-user"></i>25,634</h3>
+              <span>customers</span>
+            </li>
+          </ul>
+          <button class="btn">Go to Collections <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      
+        <div class="swiper-container">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide swiper-slide--one">
+      
+                <span>bestseller</span>
+                <div class="slide-content">
+                  <h3>The Raven</h3>
+      
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide--two">
+                <span>bestseller</span>
+                <div class="slide-content">
+                  <h3>Mademoiselle</h3>
+                  <p>epic drama</p>
+      
+                </div>
+      
+              </div>
+              <div class="swiper-slide swiper-slide--three">
+                <span>bestseller</span>
+      
+              </div>
+              <div class="swiper-slide swiper-slide--four">
+                <span>bestseller</span>
+      
+              </div>
+              <div class="swiper-slide swiper-slide--five">
+                <span>bestseller</span>
+      
+              </div>
+              <div class="swiper-slide swiper-slide--six">
+                <span>bestseller</span>
+                <div class="slide-content">
+                  <h3>Woman in the dark</h3>
+                </div>
+      
+              </div>
+      
+            </div>
+      
+          </div>
+      
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="circle"></div>
+    
+    </section>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+    <script>
+
+
+        var swiper = new Swiper(".swiper", {
+          effect: "coverflow",
+          grabCursor: true,
+          spaceBetween: 30,
+          centeredSlides: false,
+          coverflowEffect: {
+            rotate: 0,
+            stretch: 0,
+            depth: 0,
+            modifier: 1,
+            slideShadows: false
+          },
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true
+          },
+          keyboard: {
+            enabled: true
+          },
+          mousewheel: {
+            thresholdDelta: 70
+          },
+          breakpoints: {
+            460: {
+              slidesPerView: 3
+            },
+            768: {
+              slidesPerView: 3
+            },
+            1024: {
+              slidesPerView: 3
+            },
+            1600: {
+              slidesPerView: 3.6
+            }
+          }
+        });
+        
+        
+        </script>
+
+</body>
+
+</html>
